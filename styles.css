@@ -1,0 +1,31 @@
+body {
+  color: #555;
+  margin: 0;
+}
+
+#header {
+ background-color: #1abc9c;
+ height: 150px;
+}
+<head>
+<title>My Blog</title>
+<link rel="stylesheet" type="text/css" href=
+"styles.css">
+</head>
+<div id="header">
+ <div class="container">
+  <a id="header-title" href="index.html">My Blog</a>
+  <ul id="header-nav">
+   <li><a href="about.html">About</a></li>
+   <li><a href="mailto:me@me.com">Contact</a></li>
+  </ul>
+ </div>
+</div>
+#header-title {
+ display: block;
+ float: left;
+}
+#header-nav li{display: inline;} {
+ display: block;
+ float: right;
+}
